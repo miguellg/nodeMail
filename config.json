@@ -1,6 +1,6 @@
 {
     "demo": {
-        "destino": "email@gmail.com,email2@gmail.com",
-        "path": "/home/ubuntu/bkps"
+        "destino": "desenvolvimento@geprev.com.br,suporte@geprev.com.br,comercial@geprev.com.br",
+        "path": "/home/ubuntu/bkps/demo"
     }
 }
