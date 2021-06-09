@@ -45,6 +45,6 @@ async function getBkp(info){
 fs.readFile("./config.json" , "utf8", function(err, data){
 	let json = JSON.parse(data)
 	for(let i in json){
-		await getBkp(json[i])
+		getBkp(json[i])
 	}
 })
