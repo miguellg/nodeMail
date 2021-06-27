@@ -15,16 +15,17 @@ function sendMail(info, file){
 
 	
 	let hoje = file.substring(7,17)
+	let link = process.env.SITE+'/'+info.path+'/'+file
 
 	var email = {
 		from: process.env.FROM,
 		to: info.destino,
 		subject: 'Backup Sistema',
-		text: 'Backup do sistema realizado em '+hoje,
-		attachments: [{
-			filename: file,
-			path: info.path+'/'+file
-		}]
+		text: 'Backup do sistema realizado em '+hoje+'\n <a href="'+link+'">Download Backup</a>',
+		//attachments: [{
+		//	filename: file,
+		//	path: info.path+'/'+file
+		//}]
 	};
 
 	remetente.sendMail(email, function(error){
@@ -42,7 +43,7 @@ async function getBkp(info){
 	sendMail(info, files.pop())
 }
 
-fs.readFile("./config.json" , "utf8", function(err, data){
+fs.readFile(process.env.PATH_CONFIG+"/config.json" , "utf8", function(err, data){
 	let json = JSON.parse(data)
 	for(let i in json){
 		getBkp(json[i])
