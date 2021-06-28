@@ -1,6 +1,10 @@
 {
     "demo": {
-        "destino": "desenvolvimento@geprev.com.br,suporte@geprev.com.br,comercial@geprev.com.br",
+        "destino": "geprev.backup@gmail.com",
         "path": "/home/ubuntu/bkps/demo"
+    },
+    "tramandai": {
+    	"destino": "geprev.backup@gmail.com",
+	"path": "/home/ubuntu/bkps/tramandai"
     }
 }
