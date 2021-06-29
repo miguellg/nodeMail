@@ -1,10 +1,10 @@
 {
     "demo": {
         "destino": "geprev.backup@gmail.com",
-        "path": "demo"
+        "path": "/home/ubuntu/bkps/demo"
     },
     "tramandai": {
     	"destino": "geprev.backup@gmail.com",
-	"path": "tramandai"
+	"path": "/home/ubuntu/bkps/tramandai"
     }
 }
