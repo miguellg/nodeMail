@@ -15,7 +15,7 @@ function sendMail(info, file){
 
 	
 	let hoje = file.substring(7,17)
-	let link = process.env.SITE+'/'+info.path+'/'+file
+	let link = process.env.SITE+'/'+info.cliente+'/'+file
 
 	var email = {
 		from: process.env.FROM,
@@ -46,6 +46,7 @@ async function getBkp(info){
 fs.readFile(process.env.PATH_CONFIG+"/config.json" , "utf8", function(err, data){
 	let json = JSON.parse(data)
 	for(let i in json){
+		json[i].cliente = i
 		getBkp(json[i])
 	}
 })
