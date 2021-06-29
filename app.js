@@ -21,7 +21,7 @@ function sendMail(info, file){
 		from: process.env.FROM,
 		to: info.destino,
 		subject: 'Backup Sistema',
-		html: 'Backup do sistema realizado em '+hoje+'\n <a href="'+link+'">Download Backup</a>',
+		html: '<br>Backup do sistema '+info.cliente+' realizado em '+hoje+'<br> <a href="'+link+'">Download Backup</a>',
 		//attachments: [{
 		//	filename: file,
 		//	path: info.path+'/'+file
