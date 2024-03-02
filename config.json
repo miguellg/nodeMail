@@ -6,5 +6,65 @@
     "tramandai": {
     	"destino": "geprev.backup@gmail.com",
 	"path": "/home/ubuntu/bkps/tramandai"
-    }
+    },
+    "saopedrodosul": {
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/saopedrodosul"
+    },
+    "naometoque":{
+	"destino": "geprev.backup@gmail.com",
+	"path": "/home/ubuntu/bkps/naometoque"
+    },
+     "santabarbaradosul":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/santabarbaradosul"
+    },
+    "triunfo":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/triunfo"
+    },
+    "brochier":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/brochier"
+   },
+    "parobe":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/parobe"
+   },
+    "santoantoniodapatrulha":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/santoantoniodapatrulha"
+   },
+    "esteio":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/esteio"	
+    },
+   "donafrancisca":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/donafrancisca"
+   },
+   "santamaria":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/santamaria"
+   },
+   "coronelbarros":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/coronelbarros"
+   },
+   "condor":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/condor"	
+   },
+   "passofundo":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/passofundo"	
+   },
+   "panambi":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/panambi"
+   },
+   "alegrete":{
+        "destino": "geprev.backup@gmail.com",
+        "path": "/home/ubuntu/bkps/alegrete"
+   }
 }
